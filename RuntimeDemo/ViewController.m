@@ -8,10 +8,12 @@
 
 #import "ViewController.h"
 #import "UIControl+TouchBlock.h"
+#import "UIButton+RLButtonActionBlock.h"
 
 @interface ViewController ()
 
 @property (weak, nonatomic) IBOutlet UIControl *testControl;
+@property (weak, nonatomic) IBOutlet UIButton *buttonTouch;
 
 @end
 
@@ -25,6 +27,9 @@
         NSLog(@"%@",sender);
     };
     
+    [self.buttonTouch addButtonTouchBlock:^(id sender) {
+        NSLog(@"%@",sender);
+    }];
 }
 
 - (void)didReceiveMemoryWarning {
