@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		B856F10D1E8F814300D8C450 /* UIButton+RLButtonActionBlock.m in Sources */ = {isa = PBXBuildFile; fileRef = B856F10C1E8F814300D8C450 /* UIButton+RLButtonActionBlock.m */; };
+		B861A2AA1E947D1E0070A285 /* UIView+RLUIViewAction.m in Sources */ = {isa = PBXBuildFile; fileRef = B861A2A91E947D1E0070A285 /* UIView+RLUIViewAction.m */; };
 		EED041821D67E90F003A4500 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EED041811D67E90F003A4500 /* main.m */; };
 		EED041851D67E90F003A4500 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EED041841D67E90F003A4500 /* AppDelegate.m */; };
 		EED041881D67E90F003A4500 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EED041871D67E90F003A4500 /* ViewController.m */; };
@@ -20,6 +21,8 @@
 /* Begin PBXFileReference section */
 		B856F10B1E8F814300D8C450 /* UIButton+RLButtonActionBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+RLButtonActionBlock.h"; sourceTree = "<group>"; };
 		B856F10C1E8F814300D8C450 /* UIButton+RLButtonActionBlock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+RLButtonActionBlock.m"; sourceTree = "<group>"; };
+		B861A2A81E947D1E0070A285 /* UIView+RLUIViewAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+RLUIViewAction.h"; sourceTree = "<group>"; };
+		B861A2A91E947D1E0070A285 /* UIView+RLUIViewAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+RLUIViewAction.m"; sourceTree = "<group>"; };
 		EED0417D1D67E90F003A4500 /* RuntimeDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RuntimeDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EED041811D67E90F003A4500 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EED041831D67E90F003A4500 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -72,6 +75,8 @@
 				EED041981D67E95F003A4500 /* UIControl+TouchBlock.m */,
 				B856F10B1E8F814300D8C450 /* UIButton+RLButtonActionBlock.h */,
 				B856F10C1E8F814300D8C450 /* UIButton+RLButtonActionBlock.m */,
+				B861A2A81E947D1E0070A285 /* UIView+RLUIViewAction.h */,
+				B861A2A91E947D1E0070A285 /* UIView+RLUIViewAction.m */,
 				EED041891D67E90F003A4500 /* Main.storyboard */,
 				EED0418C1D67E90F003A4500 /* Assets.xcassets */,
 				EED0418E1D67E90F003A4500 /* LaunchScreen.storyboard */,
@@ -164,6 +169,7 @@
 				EED041851D67E90F003A4500 /* AppDelegate.m in Sources */,
 				B856F10D1E8F814300D8C450 /* UIButton+RLButtonActionBlock.m in Sources */,
 				EED041821D67E90F003A4500 /* main.m in Sources */,
+				B861A2AA1E947D1E0070A285 /* UIView+RLUIViewAction.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
