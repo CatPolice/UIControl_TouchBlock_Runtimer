@@ -10,12 +10,14 @@
 #import "UIControl+TouchBlock.h"
 #import "UIButton+RLButtonActionBlock.h"
 #import "UIView+RLUIViewAction.h"
+#import "UILabel+RLUILabelAction.h"
 
 @interface ViewController ()
 
 @property (weak, nonatomic) IBOutlet UIControl *testControl;
 @property (weak, nonatomic) IBOutlet UIButton *buttonTouch;
 @property (weak, nonatomic) IBOutlet UIView *viewTouch;
+@property (weak, nonatomic) IBOutlet UILabel *uiLable;
 
 @end
 
@@ -40,7 +42,9 @@
     }];
     
 
-    
+    [self.uiLable addUILableTouchBlock:^(id sender) {
+        NSLog(@"%@",sender);
+    }];
     
     
 }
