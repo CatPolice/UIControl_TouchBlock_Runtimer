@@ -27,23 +27,29 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
+    //UIControl
     self.testControl.touchUpBlock = ^(id sender){
         NSLog(@"%@",sender);
+        _uiLable.text = @"我是点击UIControl改变的";
     };
     
+    //UIButton
     [self.buttonTouch addButtonTouchBlock:^(id sender) {
         NSLog(@"%@",sender);
+        [_buttonTouch setTitle:@"我是button" forState:UIControlStateNormal];
         
     }];
     
-    
+    //UIView
     [self.viewTouch addUIViewTouchBlock:^(id sender) {
         NSLog(@"%@" , sender);
+        _uiLable.text = @"我是点击view改变的";
     }];
     
-
+    //UILable
     [self.uiLable addUILableTouchBlock:^(id sender) {
         NSLog(@"%@",sender);
+        _uiLable.text = @"我是点击lable改变的";
     }];
     
     
